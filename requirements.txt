@@ -1,5 +1,5 @@
 #local package
--e .
+#-e .
 
 #external requirements
 black
@@ -15,3 +15,4 @@ catboost
 missingno
 jinja2
 missingno
+streamlit

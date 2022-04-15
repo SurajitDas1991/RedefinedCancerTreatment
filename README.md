@@ -1,6 +1,6 @@
-### This template aims to create a boilerplate for Machine Learning tasks
-# Machine Learning - project-template
-Machine Learning project template
+### Personalized Medicine: Redefining Cancer Treatment
+
+A lot of manual work is needed to interpret genetic mutations as cancer mutations based on existing medical text literature, this needs a lot of time. The idea is to create a Machine Learning Model which would allow us to automate this portion of identifying the cancerous mutations based on the dataset available here - https://www.kaggle.com/competitions/msk-redefining-cancer-treatment/data
 
 ## STEPS -
 
@@ -8,39 +8,10 @@ Machine Learning project template
 
 ### STEP 02- Clone the new repository
 
-### STEP 03- Create a conda environment after opening the repository in VSCODE
+### STEP 03- Open a bash shell and run the init_setup.sh command
 
-```bash
-conda create --prefix ./env python=3.8 -y
-```
-
-```bash
-conda activate ./env
-```
-OR
-```bash
-source activate ./env
-```
-
-### STEP 04- install the requirements
-```bash
-pip install -r requirements.txt
-```
-
-### STEP 05 - Create conda.yaml file
-```bash
-conda env export > conda.yaml
-```
-
-### STEP 06- Commit and push the changes to the remote repository
-
-
-### STEP 07- Run the command for initializing the repository with all required libraries
 ```bash
 bash init_setup.sh
 ```
 
-### STEP 08- Run the below command in bash for the first time to have the initial setup done
-```bash
-mlflow run . --no-conda
-```
+### STEP 04- Make additional relevant changes, commit and push the changes to the remote repository
