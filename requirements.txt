@@ -16,3 +16,7 @@ missingno
 jinja2
 missingno
 streamlit
+mlxtend
+nltk
+imbalanced-learn
+--ignore-installed six
